@@ -1,0 +1,1 @@
+create view v_tbl_complaince as SELECT a.*,b.nama_kat FROM `tbl_compliance` as a join kategori as b on a.id_kat=b.id_kat
